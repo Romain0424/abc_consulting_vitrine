@@ -1,0 +1,23 @@
+<div>
+    <h2>Dashboard administrateur</h2>
+  
+    <div>
+      <h3>Modifier le mot de passe admin</h3>
+      <label for="newPassword">Nouveau mot de passe:</label>
+      <input type="password" id="newPassword" [(ngModel)]="newPassword" name="newPassword" required>
+  
+      <label for="confirmPassword">Confirmer le mot de passe:</label>
+      <input type="password" id="confirmPassword" [(ngModel)]="confirmPassword" name="confirmPassword" required>
+  
+      <button type="button" (click)="confirmPasswordChange()">Modifier le mot de passe</button>
+    </div>
+  
+    <div>
+      <h3>Modifier le slogan du site vitrine</h3>
+      <label for="newSlogan">Nouveau slogan:</label>
+      <textarea id="newSlogan" [(ngModel)]="newSlogan" name="newSlogan" rows="4" required></textarea>
+  
+      <button type="button" (click)="confirmSloganChange()">Modifier le slogan</button>
+    </div>
+  </div>
+  

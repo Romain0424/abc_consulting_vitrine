@@ -1,0 +1,10 @@
+# Node
+/frontend/node_modules
+/frontend/npm-debug.log
+/frontend/yarn-error.log
+
+# vscode
+/frontend/.angular
+/frontend/.vscode/*
+/frontend/.vscode
+
