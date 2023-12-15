@@ -8,3 +8,14 @@
 /frontend/.vscode/*
 /frontend/.vscode
 
+/backend/abc-consulting/HELP.md
+/backend/abc-consulting/target/
+!/backend/abc-consulting/.mvn/wrapper/maven-wrapper.jar
+!/backend/abc-consulting/**/src/main/**/target/
+!/backend/abc-consulting/**/src/test/**/target/
+
+### IntelliJ IDEA ###
+/backend/abc-consulting/.idea
+/backend/abc-consulting/*.iws
+/backend/abc-consulting/*.iml
+/backend/abc-consulting/*.ipr
